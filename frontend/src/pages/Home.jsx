@@ -1,8 +1,20 @@
+import BottomNav from "../components/shared/BottomNav";
+
 export default function Home() {
   return (
-    <div>
-      <h1>Home</h1>
-      <p>This is the home page.</p>
-    </div>
+    <section className="bg-[#1f1f1f] gap-3 flex h-[calc(100vh-5rem)] overflow-hidden">
+
+      {/* Left div */}
+      <div className="flex-[3] bg-red-600">
+        <h1>Hello</h1>
+      </div>
+
+      {/* Right div */}
+      <div className="flex-[2] bg-blue-600">
+        <h1>Hello</h1>
+      </div>
+      <BottomNav />
+
+    </section>
   );
 }
