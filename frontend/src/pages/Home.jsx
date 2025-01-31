@@ -1,3 +1,4 @@
+import Greetings from "../components/home/Greetings";
 import BottomNav from "../components/shared/BottomNav";
 
 export default function Home() {
@@ -6,7 +7,7 @@ export default function Home() {
 
       {/* Left div */}
       <div className="flex-[3] bg-red-600">
-        <h1>Hello</h1>
+        <Greetings />
       </div>
 
       {/* Right div */}
